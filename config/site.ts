@@ -1,0 +1,261 @@
+export const siteConfig = {
+  name: "RakeBig Services",
+  tagline: "Enterprise Perfex CRM Development Company",
+  description:
+    "RakeBig Services is the world's leading Perfex CRM Development Company. We build Custom Perfex CRM Modules, SaaS Platforms, AI Integrations, REST APIs, Mobile Applications and Enterprise Automation Solutions.",
+  url: "https://rakebig.com",
+  ogImage: "https://rakebig.com/og-image.png",
+  email: "hello@rakebig.com",
+  phone: "+1 (555) 000-0000",
+  address: "Enterprise Perfex CRM Development",
+  socials: {
+    twitter: "https://twitter.com/rakebig",
+    linkedin: "https://linkedin.com/company/rakebig",
+    github: "https://github.com/rakebig",
+    youtube: "https://youtube.com/@rakebig",
+  },
+  keywords: [
+    "Perfex CRM Development",
+    "Perfex CRM Module Development",
+    "Hire Perfex CRM Developer",
+    "Perfex CRM SaaS Development",
+    "Perfex CRM Customization",
+    "Perfex CRM API Development",
+    "Custom Perfex CRM Modules",
+    "Perfex CRM Integration",
+    "Perfex CRM WhatsApp Integration",
+    "Perfex CRM AI Integration",
+  ],
+  colors: {
+    primary: "#490993",
+    secondary: "#7B2CBF",
+    accent: "#A855F7",
+  },
+};
+
+export const navLinks = [
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/services" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
+];
+
+export const services = [
+  {
+    id: "perfex-crm-development",
+    title: "Perfex CRM Development",
+    description: "End-to-end custom Perfex CRM development tailored to your business requirements.",
+    icon: "🚀",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "custom-module-development",
+    title: "Custom Module Development",
+    description: "Build powerful custom modules that extend Perfex CRM functionality.",
+    icon: "🧩",
+    href: "/perfex-crm-module-development",
+  },
+  {
+    id: "module-customization",
+    title: "Existing Module Customization",
+    description: "Customize existing Perfex CRM modules to fit your unique workflow.",
+    icon: "⚙️",
+    href: "/perfex-crm-customization",
+  },
+  {
+    id: "saas-development",
+    title: "Perfex CRM SaaS Development",
+    description: "Transform Perfex CRM into a multi-tenant SaaS platform for your business.",
+    icon: "☁️",
+    href: "/perfex-crm-saas-development",
+  },
+  {
+    id: "white-label",
+    title: "White Label CRM",
+    description: "Launch your own branded CRM solution powered by Perfex.",
+    icon: "🏷️",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "api-development",
+    title: "REST API Development",
+    description: "Build robust RESTful APIs for seamless third-party integrations.",
+    icon: "🔌",
+    href: "/perfex-crm-api-development",
+  },
+  {
+    id: "third-party-integration",
+    title: "Third Party Integration",
+    description: "Connect Perfex CRM with your favorite tools and platforms.",
+    icon: "🔗",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "ai-integration",
+    title: "AI Integration",
+    description: "Supercharge your CRM with OpenAI, Claude, and Gemini AI capabilities.",
+    icon: "🤖",
+    href: "/perfex-crm-openai-integration",
+  },
+  {
+    id: "whatsapp-integration",
+    title: "WhatsApp Integration",
+    description: "Enable WhatsApp messaging directly within Perfex CRM.",
+    icon: "💬",
+    href: "/perfex-crm-whatsapp-integration",
+  },
+  {
+    id: "payment-gateway",
+    title: "Payment Gateway Integration",
+    description: "Integrate Stripe, PayPal, and 50+ payment gateways with Perfex CRM.",
+    icon: "💳",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "mobile-apps",
+    title: "Flutter Mobile Apps",
+    description: "Build cross-platform mobile apps for Perfex CRM on iOS and Android.",
+    icon: "📱",
+    href: "/perfex-crm-mobile-app",
+  },
+  {
+    id: "crm-migration",
+    title: "CRM Migration",
+    description: "Seamlessly migrate from any CRM to Perfex without data loss.",
+    icon: "🔄",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "performance-optimization",
+    title: "Performance Optimization",
+    description: "Optimize your Perfex CRM for maximum speed and scalability.",
+    icon: "⚡",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "security-audit",
+    title: "Security Audit",
+    description: "Comprehensive security audit and hardening for your Perfex CRM.",
+    icon: "🔒",
+    href: "/perfex-crm-development",
+  },
+  {
+    id: "dedicated-developers",
+    title: "Dedicated Perfex CRM Developers",
+    description: "Hire expert Perfex CRM developers on a dedicated basis.",
+    icon: "👨‍💻",
+    href: "/hire-perfex-crm-developer",
+  },
+  {
+    id: "maintenance",
+    title: "Long-term Maintenance",
+    description: "Ongoing maintenance, updates, and support for your Perfex CRM.",
+    icon: "🛠️",
+    href: "/perfex-crm-maintenance",
+  },
+];
+
+export const technologies = [
+  { name: "Perfex CRM", category: "CRM" },
+  { name: "CodeIgniter", category: "Framework" },
+  { name: "PHP 8.3+", category: "Backend" },
+  { name: "MySQL", category: "Database" },
+  { name: "MariaDB", category: "Database" },
+  { name: "Redis", category: "Cache" },
+  { name: "Docker", category: "DevOps" },
+  { name: "AWS", category: "Cloud" },
+  { name: "Cloudflare", category: "CDN" },
+  { name: "Nginx", category: "Server" },
+  { name: "Laravel", category: "Framework" },
+  { name: "Flutter", category: "Mobile" },
+  { name: "React", category: "Frontend" },
+  { name: "Next.js", category: "Frontend" },
+  { name: "OpenAI", category: "AI" },
+  { name: "Claude", category: "AI" },
+  { name: "Gemini", category: "AI" },
+  { name: "Vercel AI SDK", category: "AI" },
+];
+
+export const industries = [
+  { name: "Construction", icon: "🏗️" },
+  { name: "Healthcare", icon: "🏥" },
+  { name: "Education", icon: "🎓" },
+  { name: "Manufacturing", icon: "🏭" },
+  { name: "Real Estate", icon: "🏢" },
+  { name: "Logistics", icon: "🚛" },
+  { name: "Retail", icon: "🛍️" },
+  { name: "Finance", icon: "💰" },
+  { name: "Government", icon: "🏛️" },
+  { name: "Restaurants", icon: "🍽️" },
+];
+
+export const whyChooseUs = [
+  {
+    title: "100+ Custom Modules",
+    description: "Battle-tested custom modules built for real-world enterprise use cases.",
+    icon: "🧩",
+  },
+  {
+    title: "Enterprise Architecture",
+    description: "Scalable, maintainable code following SOLID principles and best practices.",
+    icon: "🏗️",
+  },
+  {
+    title: "Fast Delivery",
+    description: "Agile development with regular sprints and transparent communication.",
+    icon: "⚡",
+  },
+  {
+    title: "Experienced Developers",
+    description: "10+ years of Perfex CRM expertise with 500+ projects delivered.",
+    icon: "👨‍💻",
+  },
+  {
+    title: "AI Powered Development",
+    description: "Leverage cutting-edge AI to build smarter, faster CRM solutions.",
+    icon: "🤖",
+  },
+  {
+    title: "Secure Coding",
+    description: "Security-first development with regular audits and penetration testing.",
+    icon: "🔒",
+  },
+  {
+    title: "Scalable Solutions",
+    description: "Architecture designed to scale from startup to enterprise level.",
+    icon: "📈",
+  },
+  {
+    title: "Dedicated Support",
+    description: "24/7 support with dedicated account managers for enterprise clients.",
+    icon: "🎯",
+  },
+];
+
+export const processSteps = [
+  { step: 1, title: "Discovery", description: "We analyze your business requirements and CRM goals.", icon: "🔍" },
+  { step: 2, title: "Planning", description: "Detailed project plan with timeline, milestones, and tech stack.", icon: "📋" },
+  { step: 3, title: "UI Design", description: "Premium UI/UX designs matching your brand identity.", icon: "🎨" },
+  { step: 4, title: "Development", description: "Agile development with daily updates and code reviews.", icon: "💻" },
+  { step: 5, title: "Testing", description: "Comprehensive QA testing across all devices and scenarios.", icon: "🧪" },
+  { step: 6, title: "Deployment", description: "Zero-downtime deployment on your preferred infrastructure.", icon: "🚀" },
+  { step: 7, title: "Support", description: "Ongoing maintenance, updates, and dedicated support.", icon: "🛠️" },
+];
+
+export const crmModules = [
+  { name: "Sales", icon: "💼" },
+  { name: "HR", icon: "👥" },
+  { name: "Inventory", icon: "📦" },
+  { name: "Projects", icon: "📊" },
+  { name: "Finance", icon: "💰" },
+  { name: "Accounting", icon: "📝" },
+  { name: "Leads", icon: "🎯" },
+  { name: "Customer Portal", icon: "👤" },
+  { name: "Invoices", icon: "🧾" },
+  { name: "Payments", icon: "💳" },
+  { name: "Automation", icon: "⚙️" },
+  { name: "AI", icon: "🤖" },
+  { name: "Reports", icon: "📈" },
+  { name: "Integrations", icon: "🔗" },
+];
